@@ -1,7 +1,21 @@
 # Red Piece Game Simulation
 
+This project is a simple board game simulation in C++ where a piece moves on a 10x10 board, aiming to reach a designated destination. The movement is based on dice rolls, with each roll determining the direction the piece moves. The board contains obstacles, making certain moves invalid and adding complexity to reaching the destination.
+
+## Project Structure
+The project has the following structure:
+
+- **HTML and CSS**: The front end contains a minimal layout for displaying the game board and controls.
+- **JavaScript**: Manages game settings like speed adjustment and the toggle between Dark and Light modes.
+- **C++ Code**: The main game logic and movement algorithm for the piece.
+
+## Goal of the Algorithm
+The C++ algorithm simulates random movement on a board, where the piece navigates around obstacles to reach a destination. It uses dice rolls to introduce randomness in direction selection, reflecting chance-based pathfinding. The algorithm calculates successful and failed moves, with the ultimate goal of finding an efficient path to the destination.
+
 ## Table of Contents
 - [Red Piece Game Simulation](#red-piece-game-simulation)
+  - [Project Structure](#project-structure)
+  - [Goal of the Algorithm](#goal-of-the-algorithm)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [How It Works](#how-it-works)
