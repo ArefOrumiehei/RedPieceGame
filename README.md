@@ -137,11 +137,11 @@ To use the game in a web environment:
 To run the C++ simulation:
 1. Compile the code using a C++ compiler:
    ```bash
-   g++ -o boardgame boardgame.cpp
+   g++ -o RedPieceGame RedPieceGame.cpp
    ```
 2. Execute the compiled program:
    ```bash
-   ./boardgame
+   ./RedPieceGame
    ```
 
 ## License
